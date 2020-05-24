@@ -7,29 +7,46 @@ body {
 
 
 /** HEADER **/
+
+#header-nav {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
 .navbar-brand span { 
     vertical-align: middle;
+    position: absolute;
 }
 
-.navbar-default {
-    padding: 30px;
-}
 
 span {
     margin-top: 0;
 }
 
-#collapsable-nav {
+
+#collapsable-nav.navbar-collapse {
     background-color: #d399ef;
-    color: black;
     text-align: center;
+    position: relative;
 }
 
-.navbar-brand {
-    position: absolute;
-    height: 30px;
-    margin: 0;
+#nav-list {
+    color: white;
+    width: 100%;
 }
+
+.visible-xs.span {
+    font-size: 1.4em;
+    padding: 10px;
+}
+
+span.visible-xs:hover {
+    background-color: #b759e3;
+    position: relative;
+}
+
+
+/** MAIN CONTENT **/
 
 #main-content {
     padding: 10px;
@@ -37,20 +54,8 @@ span {
 
 .container-fluid {
     color: black;
-    position: relative;
     margin: 30px;
 }
-
-#nav-list {
-    color: white;
-}
-
-
-span.visible-xs:hover {
-    background-color: #b759e3;
-}
-
-
 
 h1.text-center {
     margin: 20px;
@@ -65,11 +70,6 @@ h1.text-center {
     margin: 10px;
 }
 
-
-.visible-xs.span {
-    font-size: 1.4em;
-    padding: 10px;
-}
 
 span {
     font-size: 2em;
